@@ -157,6 +157,7 @@
 								</li>
 							</ul>
 						</li>
+								<li class="nav-item">
 
 						<li class="nav-item has-treeview">
 							<a href="#" class="nav-link">
@@ -187,6 +188,7 @@
 								</li>
 							</ul>
 						</li>
+								<li class="nav-item">
 
 						<li class="nav-item has-treeview">
 							<a href="#" class="nav-link">
@@ -211,6 +213,14 @@
 								</li>
 							</ul>
 						</li>
+
+								<li class="nav-item">
+									<a href="#" class="nav-link" onclick="openDepositCalculator(); return false;">
+										<i class="nav-icon fas fa-calculator has-treeview"></i>
+										<p>Kalkulator Deposito</p>
+									</a>
+								</li>
+								<li class="nav-item">
 
 						<li class="nav-header">Settings</li>
 						<li class="nav-item">
@@ -265,6 +275,7 @@
 								</li>
 							</ul>
 						</li>
+								<li class="nav-item">
 
 						<li class="nav-item has-treeview">
 							<a href="#" class="nav-link">
@@ -295,6 +306,7 @@
 								</li>
 							</ul>
 						</li>
+								<li class="nav-item">
 
 						<li class="nav-item has-treeview">
 							<a href="#" class="nav-link">
@@ -320,6 +332,13 @@
 						</li>
 						</ul>
 						</li>
+
+								<li class="nav-item">
+									<a href="#" class="nav-link" onclick="openDepositCalculator(); return false;">
+										<i class="nav-icon fas fa-calculator text-success"></i>
+										<p>Kalkulator Deposito</p>
+									</a>
+								</li>
 						<?php
             }
           ?>
@@ -338,6 +357,9 @@
 			</div>
 			<!-- /.sidebar -->
 		</aside>
+
+		<!-- Kalkulator Deposito Overlay -->
+		<?php include "inc/kalkulator_deposito.php"; ?>
 
 		<!-- Content Wrapper. Contains page content -->
 		<div class="content-wrapper">
